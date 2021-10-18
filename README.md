@@ -28,4 +28,10 @@ Vine|non-Vine
 
 The result of 51% of Vine reviews being 5-star versus only 39% of non-Vine reviews being 5-star shows that there is a positivity bias for reviews in the Vine program.
 
-Then, provide one additional analysis that you could do with the dataset to support your statement.
+### Additional Analysis: 
+
+Vine|non-Vine
+:-------------------------:|:-------------------------:
+<img width="770" alt="vine_all_ratings" src="https://user-images.githubusercontent.com/85706721/137771382-b9306a4f-9ced-421f-ae02-e20ae20e5683.png">|<img width="770" alt="non-vine_all_ratings" src="https://user-images.githubusercontent.com/85706721/137771403-68f14dfc-4bdf-44cf-9689-98d7310b49d7.png">
+
+Reviews from the Vine program result in disproportionately more high star ratings and less low star ratings than those from non-Vine reviews.  
