@@ -1,3 +1,19 @@
+SELECT * INTO vine_votes_20 
+FROM vine_table 
+WHERE total_votes >= 20;
+
+SELECT * INTO vine_votes_05 
+FROM vine_votes_20 
+WHERE CAST(helpful_votes AS FLOAT)/CAST(total_votes AS FLOAT) >=0.5;
+
+SELECT * INTO vine_y 
+FROM vine_votes_05 
+WHERE vine='Y';
+
+SELECT * INTO vine_y 
+FROM vine_votes_05 
+WHERE vine='N';
+
 select count(*) from vine_Y;
 
 select count(*) from vine_N;
